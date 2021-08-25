@@ -30,7 +30,6 @@ public class Account {
     @ManyToMany
     private List<AccountAuthority> authorities;
 
-    @Temporal(TemporalType.TIMESTAMP)
     @Column(nullable = false)
     private LocalDate regdate;
 
